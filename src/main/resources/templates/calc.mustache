@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>mustache Page</title>
+</head>
+<body>
+    <form action="calc" method="POST">
+        <h1>Hello JAX-RS!</h1>
+
+        <input name="left" value="{{left}}" />
+        と
+        <input name="right" value="{{right}}" />
+        <br/>
+        <input type="submit" value="足す" />
+        答え {{ans}}
+    </form>
+</body>
+</html>
